@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .navbar{
+            background: #0d1206;
+            background: linear-gradient(90deg, rgba(13, 18, 6, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(207, 190, 45, 1) 100%);
+        }
+        .navbar .nav-link {
+            color: black !important;
+        }
+
+        .navbar .nav-link:hover {
+            color: #555 !important; 
+        }
+    </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+        <a class="navbar-brand" href="#">Portofolio</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav  ms-auto">
+                <li class="nav-item"><a class="nav-link" href="#beranda">Beranda</a></li>
+                <li class="nav-item"><a class="nav-link" href="#keahlian">Skill</a></li>
+                <li class="nav-item"><a class="nav-link" href="#riwayat">Pendidikan</a></li>
+                <li class="nav-item"><a class="nav-link" href="#sosmed">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<header class="text-white text-center py-5" style="background-image: url(assets/img/C.webp); background-size: cover; background-position: center; ">
+    <div class="container">
+        <img src="assets/img/profil.jpg" class="rounded-circle mb-3" alt="Foto Profil">
+        <h1>Ramdhan Fathin Al Ayyubi</h1>
+        <p class="lead" style="font-style : black;">SMKn 3 Metro | XI RPL | Web Developer </p>
+        <a href="#tentang" class="btn btn-dark mt-3">Selengkapnya</a>
+    </div>
+</header>
+
+<section id="beranda" class="py-5">
+    <div class="container text-center">
+        <div class="judul"><h2>TENTANG SAYA</h2></div>
+        <p>Saya adalah seorang pelajar di Lampung yang menekuni bidang pemrograman perangkat lunak , saat ini saya sedang menempuh pendidikan di sekolah menengah kejuruan , SMK negeri 3 metro</p>
+    </div>
+</section>
+
+<section class="container text-center my-5" id="tentang">
+    <div class="judul"><h2>DATA DIRI</h2></div>
+    <div class="row justify-content-center">
+      <div class="col-md-8">
+        <div class="card shadow">
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item"><strong>Nama Lengkap :</strong> Ramdhan Fathin Al Ayyubi</li>
+            <li class="list-group-item"><strong>Sekolah :</strong> SMKN 3 Metro</li>
+            <li class="list-group-item"><strong>Kelas :</strong> XI RPL</li>
+            <li class="list-group-item"><strong>Jurusan :</strong> Rekayasa Perangkat Lunak</li>
+            <li class="list-group-item"><strong>Alamat :</strong> Metro - Lampung</li>
+            <li class="list-group-item"><strong>No HP :</strong> 0812-3456-7890</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<section id="keahlian" class="bg-light py-5">
+    <div class="container text-center">
+        <div class="judul"><h2>KEAHLIAN</h2></div>
+        <div class="row mt-4">
+            <div class="col-md-4">
+                <h5>HTML & CSS</h5>
+                <div class="progress">
+                    <div class="progress-bar bg-success" style="width:90%">90%</div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <h5>PHP</h5>
+                <div class="progress">
+                    <div class="progress-bar bg-warning" style="width:75%">75%</div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <h5>Bootstrap</h5>
+                <div class="progress">
+                    <div class="progress-bar bg-info" style="width:80%">80%</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="riwayat" class="py-5">
+    <div class="container text-center">
+        <div class="judul"><h2>RIWAYAT PENDIDIKAN</h2></div>
+        <div class="row mt-4">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="assets/img/min.png" width="300px" height="300px" class="card-img-top" alt="SD">
+                    <div class="card-body">
+                        <h5 class="card-title">SD Min 3 Metro</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="assets/img/Mts.png" width="300px" height="300px" class="card-img-top" alt="SMP">
+                    <div class="card-body">
+                        <h5 class="card-title">MTs Darul A'mal Metro</h5>    
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="assets/img/smk.png" width="300px" height="300px" class="card-img-top" alt="SMK">
+                    <div class="card-body">
+                        <h5 class="card-title">SMKn 3 Metro</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="sosmed" class="bg-light py-5">
+    <div class="container text-center">
+        <div class="judul"><h2>KONTAK SAYA</h2></div>
+        <p>Email: ramdhanfatin@gmail.com</p>
+        <p>Instagram: @rdhn_12</p>
+        <p>No telp: 0857 5844 1645</p>
+    </div>
+</section>
+
+<footer class="bg-dark text-white text-center py-3">
+    <p>&copy; 2025 Portofolio Ramdhan</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
